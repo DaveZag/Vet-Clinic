@@ -29,8 +29,7 @@ CREATE TABLE vets(id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY, name VARCHAR(
 -- JUNCTION TABLES
 CREATE TABLE specializations(
     vet_id INT, 
-    species_id INT,
-    PRIMARY KEY(vet_id, species_id),     
+    species_id INT,    
     CONSTRAINT FK_vets
         FOREIGN KEY (vet_id)
             REFERENCES vets(id)
@@ -55,3 +54,5 @@ CREATE TABLE visits(
             REFERENCES  animals(id)
         ON DELETE CASCADE
 );
+
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
