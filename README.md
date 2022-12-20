@@ -1,10 +1,9 @@
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="https://user-images.githubusercontent.com/93520178/203661672-538bff13-8797-4d20-9b82-372aa011d464.png" alt="logo" width="140"  height="auto" />
   <br/>
 
 </div>
-<br>
 
 # 📗 Table of Contents
 
@@ -39,11 +38,11 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ### Database Schema Diagram
 
-![Database Diagram](./diagram.png)
+![Database Diagram](./database_schema.png)
 
 ## Author
 
-👤 **Amine**
+👤 **Dave**
 
 - GitHub: [@DaveZag](http://github.com/daveZag)
 - LinkedIn: [@Dave Zagabe](https://www.linkedin.com/in/dave-zagabe/)
